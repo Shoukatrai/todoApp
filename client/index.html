@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MY NOTES</h1>
+
+    <div class="creatingNote">
+        <input type="text"  id="input">
+        <button onclick="createNote()">Add Note</button>
+        <button>Delete All</button>
+    </div>
+
+    <div class="ParentContainer">
+        <div class="note">
+            <span>Text</span>
+            <div class="btns">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="app.js"></script>
+</html>
