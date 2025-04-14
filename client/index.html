@@ -11,19 +11,21 @@
 
     <div class="creatingNote">
         <input type="text"  id="input">
-        <button onclick="createNote()">Add Note</button>
-        <button>Delete All</button>
+        <button onclick="createNote()" class="greenBtn">Add Note</button>
+        <button onclick="allTodoDelete()" class="redBtn">Delete All</button>
     </div>
 
     <div class="ParentContainer">
-        <div class="note">
+        <!-- <div class="note">
             <span>Text</span>
             <div class="btns">
                 <button>Edit</button>
                 <button>Delete</button>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 <script type="module" src="app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
